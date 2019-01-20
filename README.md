@@ -52,14 +52,6 @@ find the cart and output the value of the cart
 loops through and decrements the value of the product inventory. Also clears cart_inventory which was the temporary count for the products in all carts.
 ```
 
- - find({}) - use this to grab all of the products
- - find({_id}) - use this to find based on a specific product _id
-
- - GET ('/products') -> req (id), res (only those with inventory > 0)
-
- - POST ('/purchase') -> use the $inc modifier to update the db
- - products with inventory = 0 should not be able to be purchased
-
 ### Usage
 - Ensure that MongoDB is installed on your system
 - Use `node server/server.js` to start the app on `localhost:3000`
