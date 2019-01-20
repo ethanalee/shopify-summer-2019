@@ -11,7 +11,11 @@ var Cart = mongoose.model('Carts', {
     value: {
         default: 0,
         type: Number
-    }
+    },
+    _creator: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true
+      }
 });
 
 module.exports = {Cart}

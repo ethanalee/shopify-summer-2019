@@ -1,0 +1,29 @@
+{
+  "name": "shopify-summer-2019",
+  "version": "1.0.0",
+  "description": "https://docs.google.com/document/d/1J49NAOIoWYOumaoQCKopPfudWI_jsQWVKlXmw1f1r-4/edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanalee/shopify-summer-2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanalee/shopify-summer-2019/issues"
+  },
+  "homepage": "https://github.com/ethanalee/shopify-summer-2019#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.12",
+    "mongoose": "^5.2.8",
+    "validator": "^10.11.0"
+  }
+}
