@@ -27,7 +27,7 @@ I also added a model for the user and routes for user creation and authenticatio
     - status: inactive or active
     - products: array of products
     - value: total dollar value of the cart
-    - creater: the user who created the cart
+    - creator: the user who created the cart
 
 ### Routes
 ```
